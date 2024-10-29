@@ -145,9 +145,9 @@
 </head>
 <body>
   <div class="header">
-    <div class="logo">CarWise</div>
+   <a href="{{ url_for('homepage.html') }}"> <div class="logo">CarWise</div></a>
     <nav>
-      <a href="homepage.html#about-us">About</a>
+      <a href="{{ url_for('homepage.html#about-us') }}">About</a>
       <a href="templates\home2.html">Predict</a>
       <a href="https://www.cardekho.com/">Booking</a>
       <a href="homepage.html#contact-us">Contacts</a>
